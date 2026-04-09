@@ -16,7 +16,7 @@
 
 		default_layer {
 			//PREV | PLAY/PAUSE | NEXT
-			bindings = <&kp C_MUTE &lt 4 SPACE &kp DELETE>;
+			bindings = <&kp LEFT_WIN &lt 4 SPACE &kp DELETE>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 		one {
@@ -26,12 +26,12 @@
 		};
 		two {
 			//PREV | PLAY/PAUSE | NEXT
-			bindings = <&kp CAPS &lt 4 LEFT_WIN &kp SPACE>;
+			bindings = <&kp CAPS &lt 4 C_MUTE &kp PRINTSCREEN>;
 			sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
 		};
 		three {
 			//PREV | PLAY/PAUSE | NEXT
-			bindings = <&kp C_MUTE &lt 4 F13 &kp C_PP>;
+			bindings = <&kp LEFT_ARROW &lt 4 DOWN_ARROW &kp RIGHT_ARROW>;
 		};
 		shift {
 			//PREV | PLAY/PAUSE | NEXT
